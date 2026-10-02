@@ -71,3 +71,10 @@ Each section in `components/` has its own JSX component and CSS Module. `App.jsx
 - `npm run build` — create a production build in `dist/`.
 - `npm run preview` — preview the production build locally.
 - `npm run lint` — run ESLint.
+
+## 📬 Contact
+
+If you want to get in touch:
+
+Email: <zvonimir.juric@utb.ecutbildning.se>
+linkedin: [Zvonimir Juric](https://www.linkedin.com/in/zvonimir-juric-106358280)
