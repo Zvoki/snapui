@@ -6,8 +6,8 @@ SnapUI is a landing page for an AI-powered React component generator concept. It
 
 ## Live Demo
 
-Netlify deployment: https://your-netlify-url.netlify.app  
-Replace this placeholder with the published site URL.
+Netlify deployment: <https://snapui-landingpage.netlify.app>
+
 
 ## What the Landing Page Includes
 
