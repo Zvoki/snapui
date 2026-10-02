@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  padding: 40px 20px;
+  background-color:  var(--color-dark);
+  text-align: center;
+}
+
+.text {
+  color: var(--color-white);
+  font-size: var(--font-sm);
+  margin-bottom: 6px;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+.emailLink {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
+.emailLink:hover {
+  color: var(--accent-react);
+}

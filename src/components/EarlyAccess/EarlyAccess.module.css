@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  padding: 100px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  font-size: var(--font-xxxl);
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 40px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.list li {
+  font-size: var(--font-lg);
+  color: #1a1a1a;
+  margin-bottom: var(--space-sm);
+  padding-left: 10px;
+}
+
+.ctaButton {
+  background-color: #0A66C2;
+  color: #ffffff;
+  padding: 16px 40px;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.ctaButton:hover {
+ background-color: var(--color-primary);
+  color: var(--color-white);
+}
