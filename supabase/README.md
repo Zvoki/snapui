@@ -23,8 +23,11 @@ Copy `.env.example` to `.env.local` in the project root and set:
 
 ```text
 VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-publishable-or-anon-key
+VITE_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
 ```
+
+For older Supabase projects that only provide the legacy `anon` key, use
+`VITE_SUPABASE_ANON_KEY` instead. Do not set both variables.
 
 Restart the Vite development server after changing environment variables.
 `.env.local` is ignored by Git. Never put a Supabase `service_role` or secret
