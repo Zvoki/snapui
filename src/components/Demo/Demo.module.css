@@ -1,68 +1,122 @@
 .container {
   width: 100%;
-  padding: 100px 20px;
-  background-color: #f5f7fa;
+  padding: 88px 24px;
+  background-color: #f2f7f2;
   text-align: center;
 }
 
-.heading {
-  font-size: 36px;
+.eyebrow {
+  margin-bottom: 12px;
+  color: #287451;
+  font-size: 13px;
   font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 40px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
 }
 
-.videoFrame {
-  max-width: 900px;
-  margin: 0 auto 30px auto;
-}
-
-.placeholder {
-  width: 100%;
-  height: 400px;
-  background-color: #e6e6e6;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.placeholderText {
-  font-size: 22px;
-  color: #555555;
+.heading {
+  margin: 0 auto 14px;
+  color: #183a32;
+  font-size: clamp(30px, 4vw, 42px);
+  letter-spacing: -1.4px;
 }
 
 .description {
-  font-size: 20px;
-  color: #333333;
+  max-width: 760px;
+  margin: 0 auto 34px;
+  color: #5a6962;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.example {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 950px;
+  margin: 0 auto 30px;
+  text-align: left;
+}
+
+.exampleCard {
+  padding: 30px;
+  border: 1px solid #e1e9e2;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgba(27, 63, 49, 0.06);
+}
+
+.highlighted {
+  border-color: #add8b8;
+  background: #fbfffb;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #587265;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin-bottom: 14px;
+  color: #183a32;
+  font-size: 21px;
+}
+
+.list {
+  padding-left: 20px;
+  color: #53645d;
+  line-height: 1.9;
+}
+
+.result {
+  margin-bottom: 20px;
+  color: #324940;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.exampleNote {
   max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.6;
+  margin: -10px auto 24px;
+  color: #62736a;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.match {
+  color: #287451;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .ctaButton {
   display: inline-block;
-  margin-top: 24px;
-  padding: 14px 28px;
-  border: none;
+  padding: 14px 22px;
   border-radius: 8px;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  font: inherit;
+  background: #176247;
+  color: #fff;
+  font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
-.ctaButton:hover {
-  background-color: var(--color-primary-dark);
+.ctaButton:hover,
+.ctaButton:focus-visible {
+  background: #104d38;
 }
-.videoFrame iframe {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 0;
-  border-radius: 12px;
+
+@media (max-width: 700px) {
+  .example {
+    grid-template-columns: 1fr;
+  }
+
+  .exampleCard {
+    padding: 24px;
+  }
 }

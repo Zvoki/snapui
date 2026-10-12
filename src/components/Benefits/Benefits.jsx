@@ -2,17 +2,15 @@ import styles from "./Benefits.module.css";
 
 export default function Benefits() {
   return (
-    
-    <section className={styles.container}>
-      <h2 className={styles.heading}>Why Developers Love SnapUI</h2>
+    <section className={`${styles.container} fadeIn`}>
+      <p className={styles.eyebrow}>Who it’s for</p>
+      <h2 className={styles.heading}>A better starting point for your next application</h2>
 
       <div className={styles.grid}>
-        <div className={styles.item}>⚡ Faster prototyping</div>
-        <div className={styles.item}>🎨 Consistent design</div>
-        <div className={styles.item}>🐛 Fewer bugs</div>
-        <div className={styles.item}>🧩 Less manual CSS</div>
-        <div className={styles.item}>🚀 Great for startups</div>
-        <div className={styles.item}>🔧 Clean, optimized code</div>
+        <div className={styles.item}>Students preparing for their first roles</div>
+        <div className={styles.item}>Junior developers building their careers</div>
+        <div className={styles.item}>Interns and work-placement applicants</div>
+        <div className={styles.item}>Job seekers sending multiple applications</div>
       </div>
     </section>
   );

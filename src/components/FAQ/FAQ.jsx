@@ -2,40 +2,43 @@ import styles from "./FAQ.module.css";
 
 export default function FAQ() {
   return (
-    <section className={styles.container}>
-      <h2 className={styles.heading}>FAQ — Frequently Asked Questions</h2>
+    <section id="faq" className={`${styles.container} fadeIn`}>
+      <h2 className={styles.heading}>Frequently asked questions</h2>
 
       <div className={styles.grid}>
         <div className={styles.card}>
-          <h3 className={styles.question}>Does SnapUI work with Next.js?</h3>
+          <h3 className={styles.question}>Is the tool fully automated yet?</h3>
           <p className={styles.answer}>
-            Yes — all components are fully compatible with Next.js, Vite and
-            standard React setups.
+            Not yet. The idea is at an early stage, and the pilot will help us
+            learn what job seekers really need. Early applications may be
+            tailored manually with the help of AI tools.
           </p>
         </div>
 
         <div className={styles.card}>
-          <h3 className={styles.question}>Can I customize the generated components?</h3>
+          <h3 className={styles.question}>How much does the pilot cost?</h3>
           <p className={styles.answer}>
-            Absolutely. The code is clean, modular and easy to modify.
+            The pilot is free. We’ll validate future pricing with users; we’re
+            currently considering €5–€15 per month.
           </p>
         </div>
 
         <div className={styles.card}>
-          <h3 className={styles.question}>Is the AI expensive to use?</h3>
+          <h3 className={styles.question}>Can you guarantee I’ll get a job?</h3>
           <p className={styles.answer}>
-            No. Generating a component costs less than €0.01.
+            No. The tool can help present your experience more clearly, but it
+            can’t guarantee an interview or a job.
           </p>
         </div>
 
         <div className={styles.card}>
-          <h3 className={styles.question}>Will there be more components?</h3>
+          <h3 className={styles.question}>How do I join?</h3>
           <p className={styles.answer}>
-            Yes — early adopters help decide which components come next.
+            Enter your email and your email app will open with a pre-written
+            message. Send it to complete your application.
           </p>
         </div>
       </div>
-       <section className={`${styles.container} fadeIn`}/>
     </section>
   );
 }

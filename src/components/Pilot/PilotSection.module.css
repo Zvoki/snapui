@@ -1,0 +1,73 @@
+.container {
+  padding: 78px 24px;
+  background: #173f37;
+  color: #fff;
+}
+
+.content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #a8e8bf;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.heading {
+  margin-bottom: 18px;
+  color: #fff;
+  font-size: clamp(30px, 4vw, 42px);
+  letter-spacing: -1.4px;
+}
+
+.subheading {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #e1eee5;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  max-width: 720px;
+  margin: 30px auto 0;
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  text-align: left;
+}
+
+.noteIcon {
+  display: grid;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border-radius: 50%;
+  background: #a8e8bf;
+  color: #173f37;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.note p {
+  color: #edf5ef;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+@media (max-width: 560px) {
+  .note {
+    padding: 16px;
+  }
+}

@@ -1,25 +1,24 @@
 import styles from "./Hero.module.css";
+import WaitlistForm from "../WaitlistForm/WaitlistForm";
 
 export default function Hero() {
   return (
     
     <section id="home" className={styles.heroContainer}>
       <div className={styles.content}>
+        <p className={styles.eyebrow}>A smarter way to apply</p>
         <h1 className={styles.title}>
-          Build React components in seconds.
+          Stop rewriting your CV for every application.
         </h1>
 
         <p className={styles.subtitle}>
-          SnapUI turns simple descriptions into clean, production-ready React
-          components — instantly.
+          We’re building an AI tool to turn a job ad and your experience into
+          a tailored CV and cover letter in minutes.
         </p>
 
-        <a href="#snapui" className={styles.ctaButton}>
-          Generate a Component
-        </a>
-
+        <WaitlistForm variant="hero" idPrefix="hero-waitlist" />
         <p className={styles.smallText}>
-          No setup. No boilerplate. Just describe what you need.
+          Recruiting our first 10 pilot testers — join early and help shape what comes next.
         </p>
       </div>
     </section>

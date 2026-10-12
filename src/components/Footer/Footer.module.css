@@ -1,25 +1,39 @@
 .container {
   width: 100%;
-  padding: 40px 20px;
-  background-color:  var(--color-dark);
+  padding: 38px 24px;
+  background-color: #173f37;
   text-align: center;
 }
 
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.brand {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .text {
-  color: var(--color-white);
-  font-size: var(--font-sm);
+  color: #e1eee5;
+  font-size: 14px;
   margin-bottom: 6px;
 }
 
-.text:last-child {
-  margin-bottom: 0;
+.copyright {
+  margin-top: 22px;
+  color: #a9beb1;
+  font-size: 12px;
 }
 
 .emailLink {
-  color: inherit;
+  color: #c5efd1;
   text-underline-offset: 3px;
 }
 
 .emailLink:hover {
-  color: var(--accent-react);
+  color: #ffffff;
 }
